@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+.weather-fetch{
+    margin: 20% auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.heading{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.btn{
+    margin-top: 5px;
+    margin-left:10px;
+    padding:10px 80px;
+    color:black;
+    background-color: white;
+}
+.data{
+    display:none;
+}
+.map{
+  /* display: block; */
+  border: 1px solid white;
+  width: 30vw;
+  height: 50vh;
+  margin-left:35%;
+
+}
+.weather-data{
+    border: 1px solid white;
+    width: 30vw;
+    height: 50vh;
+    margin-left: 35%;
+}
+.header{
+    text-align: center;
+    font-size: large;
+}
+.long{
+    margin-left:25%;
+}
+
+.weather-data{
+    background-color: white;
+    color:black;
+}
+.data-feeding{
+    border:1px solid black;
+    height: 32vh;
+    width:24vw;
+    margin:auto;
+    text-align: left;
+    padding: 20px;
+}
+.location,.timezone,.windspeed,.pressure,.humidity,.windDirection,.uvindex,.feelslike{
+    margin-top:5px;
+}
